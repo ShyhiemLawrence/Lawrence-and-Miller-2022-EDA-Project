@@ -1,7 +1,11 @@
+library(tidyverse)
+library(ggplot2)
 library(readxl)
-data<- read_excel("data.xlsx")
+
+data<- read_excel("data/data.xlsx")
 data 
-Adolescent_birthrate <- data
-Adolescent_birthrate
-ggplot(data = Adolescent_birthrate) +
+
+
+ggplot(data = data) +
   geom_bar(mapping = aes(x = Indicator))
+

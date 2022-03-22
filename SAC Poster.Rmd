@@ -1,0 +1,25 @@
+---
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(include = FALSE)
+```
+
+Title
+
+Authors
+
+Affiliations
+
+Introduction
+
+Methods
+
+Results
+
+Discussion
+
+References
+
+## 
