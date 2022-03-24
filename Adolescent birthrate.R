@@ -5,7 +5,16 @@ library(readxl)
 data<- read_excel("data/data.xlsx")
 data 
 
+rename(data, Year = ...2)
 
-ggplot(data = data) +
-  geom_bar(mapping = aes(x = Indicator))
+
+filter(data, ...2 == 2018)
+
+birthrate <- filter(data, ...2 == 2018)
+birthrate
+
+view(birthrate)
+
+
+
 
