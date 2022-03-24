@@ -1,19 +1,27 @@
 library(tidyverse)
-library(ggplot2)
 library(readxl)
 
-data<- read_excel("data/data.xlsx")
-data 
+abr <- 
+  read_csv("data/abr.csv") %>% 
+  transmute(
+    country = Location, 
+    year = Period, 
+    abr = Value
+  ) %>% 
+  print()
 
-rename(data, Year = ...2)
+abr %>% 
+  filter(year == 2018) %>% 
+  ggplot() +
+  geom_col(mapping = aes(x = country, y = abr)) +
+  coord_flip()
 
 
-filter(data, ...2 == 2018)
-
-birthrate <- filter(data, ...2 == 2018)
+birthrate <- filter(data, Year == 2018)
 birthrate
 
-view(birthrate)
+ggplot(data = birthrate) +
+  geom_bar(mapping = aes(x = Indicator))
 
 
 
