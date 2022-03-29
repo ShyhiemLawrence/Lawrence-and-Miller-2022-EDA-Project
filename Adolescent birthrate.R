@@ -1,4 +1,5 @@
 library(tidyverse)
+library(ggplot2)
 library(readxl)
 
 abr <- 
@@ -17,11 +18,17 @@ abr %>%
   coord_flip()
 
 
-birthrate <- filter(data, Year == 2018)
-birthrate
+mapdata <- map_data("world")
+view(mapdata)
 
-ggplot(data = birthrate) +
-  geom_bar(mapping = aes(x = Indicator))
+mapdata <- left_join(mapdata, abr, by="region")
+view(mapdata)
+
+
+
+
+
+
 
 
 
