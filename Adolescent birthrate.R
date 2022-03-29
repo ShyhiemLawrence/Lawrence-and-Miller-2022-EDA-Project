@@ -2,6 +2,8 @@ library(tidyverse)
 library(ggplot2)
 library(readxl)
 
+
+
 abr <- 
   read_csv("data/abr.csv") %>% 
   transmute(
@@ -11,6 +13,8 @@ abr <-
   ) %>% 
   print()
 
+
+
 abr %>% 
   filter(year == 2018) %>% 
   ggplot() +
@@ -18,10 +22,13 @@ abr %>%
   coord_flip()
 
 
+
 mapdata <- map_data("world")
 view(mapdata)
 
-mapdata <- left_join(mapdata, abr, by="region")
+
+
+mapdata <- left_join(mapdata, abr, by=c("region" = "country"))
 view(mapdata)
 
 
