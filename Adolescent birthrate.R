@@ -1,7 +1,8 @@
 library(tidyverse)
-library(ggplot2)
 library(readxl)
-
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(sf)
 
 
 abr <- 
@@ -13,8 +14,6 @@ abr <-
   ) %>% 
   print()
 
-
-
 abr %>% 
   filter(year == 2018) %>% 
   ggplot() +
@@ -22,17 +21,15 @@ abr %>%
   coord_flip()
 
 
-
-mapdata <- map_data("world")
-view(mapdata)
-
-
-
-mapdata <- left_join(mapdata, abr, by=c("region" = "country"))
-view(mapdata)
-
-
-
+# world map
+ne_countries(scale = "medium", returnclass = "sf") %>%
+  filter(sov_a3 != "ATA") %>% 
+  left_join(filter(abr, year == 2018), by = c("admin" = "country")) %>% 
+  ggplot() +
+  geom_sf(aes(fill = abr)) +
+  scale_fill_viridis_b() +
+  coord_sf(crs = st_crs("ESRI:54030")) +  # Robinson
+  theme_void()
 
 
 
