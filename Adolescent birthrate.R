@@ -18,7 +18,7 @@ abr <-
 abr %>% 
   filter(year == 2018) %>% 
   ggplot() +
-  geom_col(mapping = aes(x = country, y = abr)) +
+  geom_col(mapping = aes(x = country, y = abr), fill = "royalblue4")  +
   coord_flip()
 
 

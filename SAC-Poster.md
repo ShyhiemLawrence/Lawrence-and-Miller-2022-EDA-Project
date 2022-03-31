@@ -23,6 +23,8 @@ about the countries and their birth rates throughout the years 2000 to
 2019. Investigation obtained from this data will be used to provide
 adequate information in high risk areas for adolescent birth rate.
 
+**Introduction**
+
 **Methods**
 
 **Results**
@@ -40,5 +42,7 @@ Organization,
 <https://www.who.int/news-room/fact-sheets/detail/adolescent-pregnancy.>
 
 **Acknowledgements**
+
+Chris Merkord
 
 ## 
