@@ -100,11 +100,11 @@ Organization*, THE GLOBAL HEALTH OBSERVATOR,
 Organization,
 <https://www.who.int/news-room/fact-sheets/detail/adolescent-pregnancy.>
 
-Carvajal, Liliana, et al. “Basic Maternal Health Care Coverage among
-Adolescents in 22 Sub-Saharan African Countries with High Adolescent
-Birth Rate.” *Journal of Global Health*, International Society of Global
-Health, Dec. 2020,
-<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7719354/.>
+Carvajal, L., Wilson, E., Requejo, J. H., Newby, H., Eriksson, C. D. C.,
+Liang, M., Dennis, M., Gohar, F., Kapeu, A. S., Idele, P., & Amouzou, A.
+(2020). Basic Maternal Health Care Coverage Among Adolescents in 22
+Sub-Saharan African Countries with High Adolescent Birth Rate. *Journal
+of global health*, *10*(2). <https://doi.org/10.7189/jogh.10.021401>
 
 Nagata, Jason M. “Global Health Priorities and the Adolescent Birth
 Rate.” *Journal of Adolescent Health*, vol. 60, no. 2, 16 Nov. 2016,
