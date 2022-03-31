@@ -14,6 +14,8 @@ abr <-
   ) %>% 
   print()
 
+
+# Histogram
 abr %>% 
   filter(year == 2018) %>% 
   ggplot() +
@@ -21,7 +23,7 @@ abr %>%
   coord_flip()
 
 
-# world map
+# World Map
 ne_countries(scale = "medium", returnclass = "sf") %>%
   filter(sov_a3 != "ATA") %>% 
   left_join(filter(abr, year == 2018), by = c("admin" = "country")) %>% 
