@@ -40,12 +40,11 @@ birth occurs.
 
 **Methods:**
 
-![](Screenshot%20(1).png)
+<img src="Screenshot (1).png" width="12in"/>
 
 \`\`\`{r} # Histogram} abr %>% filter(year == 2018) %>% ggplot() +
 geom_col(mapping = aes(x = country, y = abr), fill = “royalblue4”) +
 coord_flip()
-
 
     ```{r} # World Map}
     ne_countries(scale = "medium", returnclass = "sf") %>%
@@ -59,12 +58,13 @@ coord_flip()
 
 **Results:**
 
-<img src="https://lh6.googleusercontent.com/GymQhJKCdND8JCJxrevu961VtzgyMs-QdgQjkX7LqEtUYxeBXKMpZun_opPcOhoZeX9BGpU7WO_SDf8-G_T7wX5So7wJtyieh_YVMJOWM331jZhUF4BVsZ3psaXrlFMQoRqLFyeaNLnV" width="516"/>
+<img src="https://lh6.googleusercontent.com/GymQhJKCdND8JCJxrevu961VtzgyMs-QdgQjkX7LqEtUYxeBXKMpZun_opPcOhoZeX9BGpU7WO_SDf8-G_T7wX5So7wJtyieh_YVMJOWM331jZhUF4BVsZ3psaXrlFMQoRqLFyeaNLnV" width="13.58in"/>
 
 **Figure 1.** A Histogram representing the Adolescent Birth Rate (abr)
 in the year of 2018 among different countries around the world.
 
-![](https://lh6.googleusercontent.com/7zW4jkyjxWCmIAhlCqD2XM1VYvjSnm0FjZum4T_79ZTOckM3RcPdHsKdYWEf-QJkB-v8QhNUAF3fPK3A_9_el6bpQx8qeAKEwuLxnk7gU-95ceh1vHiKHW2hRdgFy8Tol1fP2Mfijx3Q)
+<img src="map.png" width="15.24in"/>
+
 **Figure 2.** A World Map showing the high and low birth rates among
 adolescents aged 15 to 19. Yellow representing the highest rates, while
 purple represents the lowest rates.
