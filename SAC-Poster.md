@@ -27,16 +27,24 @@ adequate information in high risk areas for adolescent birth rate.
 
 **Introduction:**
 
-The adolescent birth rate measures the annual number of births to women
-15 to 19 years of age per 1,000 women in that age group. Adolescent
-birth rate has been a striking obstacle around the world, some depriving
-women and babies gain a better experience of life.  Social determinants
-of health, such as low education and low income levels of a teen’s
-family, may contribute to the high teen birth rates. Teens in certain
-areas are at higher risk of teen pregnancy and birth than other areas.
-Not only can this pose as a risk for better experience, but it can also
-increase a risk of mortality in babies and women when an adolescent
-birth occurs.
+-   Adolescent birth rate measures annual number of births to women
+    15-19 years of age per 1,000 women.
+
+-   ABR has become a striking obstacle around the world. 
+
+-   Social determinants of health:
+
+<!-- -->
+
+    -   Low education and low income levels of a teen's family
+
+    -   May contribute to the high teen birth rates
+
+-   Teens in certain areas are at higher risk of teen pregnancy and
+    birth than other areas.
+
+-   ABR poses as a risk for better experience and can increase the risk
+    of mortality in babies and women when an adolescent birth occurs.
 
 **Methods:**
 
