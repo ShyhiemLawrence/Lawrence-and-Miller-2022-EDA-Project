@@ -120,6 +120,6 @@ pp. 131–132.
 
 **Acknowledgements:**
 
-Chris Merkord
-
-## 
+We express our profound thanks to our Quantitative Biology Professor
+Dr. Chris Merkord and to everyone who have helped indirectly in our
+preparation.
